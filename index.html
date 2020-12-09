@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+
+        var array = ["avellana", "chocolate", "canela"]
+
+        var tipoDeCookie = "vainilla"
+
+        function prepararCookie(){
+            var cookie = "Tu cookie de " + tipoDeCookie +  " está lista";
+            console.log(cookie);
+        }
+
+
+        var length = array.length;
+        var i;
+
+        let cookie;
+
+        for (i = 0; i < length; i++) {
+            cookie = array.pop()
+
+            tipoDeCookie = cookie
+
+            prepararCookie();
+        }
+
+        console.log("La galletita era de " + tipoDeCookie)
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
